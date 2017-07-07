@@ -102,6 +102,6 @@ func StackTrace(err error) Trace {
 // getCallStack retrieves current callstack
 func getCallStack() callStack {
 	buf := make(callStack, 32)
-	n := runtime.Callers(3, buf)
+	n := runtime.Callers(2, buf)
 	return buf[0:n]
 }
