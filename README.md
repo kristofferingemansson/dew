@@ -77,3 +77,11 @@ func (d dd) Sdf() error {
 	return nil
 }
 ```
+
+```
+Gluttony: Omnomnom: Greed: All the stuff!: Some random error from some external package
+main.Package1() @ C:/Users/kristoffer/Documents/Go/src/github.schibsted.io/lendo-se/lendo4-lendose-api/cmd/dew-test/main.go:45
+main.main() @ C:/Users/kristoffer/Documents/Go/src/github.schibsted.io/lendo-se/lendo4-lendose-api/cmd/dew-test/main.go:14
+runtime.main() @ C:/Go/src/runtime/proc.go:185
+runtime.goexit() @ C:/Go/src/runtime/asm_amd64.s:2197
+```
